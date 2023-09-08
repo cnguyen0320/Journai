@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
 	@EnvironmentObject var viewModel: JournalViewModel
@@ -18,5 +19,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+			.environmentObject(JournalViewModel())
     }
 }

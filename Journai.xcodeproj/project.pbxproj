@@ -11,6 +11,10 @@
 		7B4FD7952AAA22A200F38901 /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FD7942AAA22A200F38901 /* JournalViewModel.swift */; };
 		7B4FD7972AAA246D00F38901 /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FD7962AAA246D00F38901 /* JournalListView.swift */; };
 		7B4FD7992AAA25B300F38901 /* JournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FD7982AAA25B300F38901 /* JournalEntryView.swift */; };
+		7B4FD79B2AAB5ECC00F38901 /* NewJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FD79A2AAB5ECC00F38901 /* NewJournalView.swift */; };
+		7B4FD79F2AAB62C700F38901 /* NewJournalViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FD79E2AAB62C700F38901 /* NewJournalViewViewModel.swift */; };
+		7B4FD7A12AAB6E3100F38901 /* PreviewSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FD7A02AAB6E3100F38901 /* PreviewSampleData.swift */; };
+		7B4FD7A32AAB6FF700F38901 /* SampleJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FD7A22AAB6FF700F38901 /* SampleJournal.swift */; };
 		7B9969BD2AAA198C00BF849C /* JournaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9969BC2AAA198C00BF849C /* JournaiApp.swift */; };
 		7B9969BF2AAA198C00BF849C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9969BE2AAA198C00BF849C /* ContentView.swift */; };
 		7B9969C12AAA198D00BF849C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9969C02AAA198D00BF849C /* Assets.xcassets */; };
@@ -22,6 +26,10 @@
 		7B4FD7942AAA22A200F38901 /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
 		7B4FD7962AAA246D00F38901 /* JournalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
 		7B4FD7982AAA25B300F38901 /* JournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryView.swift; sourceTree = "<group>"; };
+		7B4FD79A2AAB5ECC00F38901 /* NewJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJournalView.swift; sourceTree = "<group>"; };
+		7B4FD79E2AAB62C700F38901 /* NewJournalViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJournalViewViewModel.swift; sourceTree = "<group>"; };
+		7B4FD7A02AAB6E3100F38901 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
+		7B4FD7A22AAB6FF700F38901 /* SampleJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleJournal.swift; sourceTree = "<group>"; };
 		7B9969B92AAA198C00BF849C /* Journai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9969BC2AAA198C00BF849C /* JournaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournaiApp.swift; sourceTree = "<group>"; };
 		7B9969BE2AAA198C00BF849C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				7B4FD7942AAA22A200F38901 /* JournalViewModel.swift */,
+				7B4FD79E2AAB62C700F38901 /* NewJournalViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -54,6 +63,7 @@
 				7B9969BE2AAA198C00BF849C /* ContentView.swift */,
 				7B4FD7962AAA246D00F38901 /* JournalListView.swift */,
 				7B4FD7982AAA25B300F38901 /* JournalEntryView.swift */,
+				7B4FD79A2AAB5ECC00F38901 /* NewJournalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -62,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				7B9969BC2AAA198C00BF849C /* JournaiApp.swift */,
+				7B4FD7A02AAB6E3100F38901 /* PreviewSampleData.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -70,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				7B4FD7922AAA229200F38901 /* JournalEntry.swift */,
+				7B4FD7A22AAB6FF700F38901 /* SampleJournal.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -185,8 +197,12 @@
 				7B4FD7952AAA22A200F38901 /* JournalViewModel.swift in Sources */,
 				7B4FD7932AAA229200F38901 /* JournalEntry.swift in Sources */,
 				7B4FD7992AAA25B300F38901 /* JournalEntryView.swift in Sources */,
+				7B4FD79F2AAB62C700F38901 /* NewJournalViewViewModel.swift in Sources */,
+				7B4FD7A32AAB6FF700F38901 /* SampleJournal.swift in Sources */,
+				7B4FD79B2AAB5ECC00F38901 /* NewJournalView.swift in Sources */,
 				7B9969BF2AAA198C00BF849C /* ContentView.swift in Sources */,
 				7B9969BD2AAA198C00BF849C /* JournaiApp.swift in Sources */,
+				7B4FD7A12AAB6E3100F38901 /* PreviewSampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -297,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

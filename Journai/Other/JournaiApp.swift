@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import SwiftData
 @main
 struct JournaiApp: App {
 	
@@ -19,5 +19,6 @@ struct JournaiApp: App {
 					.environmentObject(viewModel)
 			}
         }
+		.modelContainer(for: JournalEntry.self)
     }
 }

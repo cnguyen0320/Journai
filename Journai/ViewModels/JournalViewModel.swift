@@ -12,14 +12,13 @@ class JournalViewModel: ObservableObject {
 	
 	// track JournalEntries in an array
 	@Published var entries: [JournalEntry] = []
+	@Published var showingNewJournalView: Bool = false
 	
 	// Function to add a new journal entry
 	func addEntry(title: String, body: String) {
 		let newEntry = JournalEntry(
 			title: title,
-			body: body,
-			dateCreated: Date(),
-			dateModified: Date()
+			body: body
 		)
 		entries.append(newEntry)
 	}

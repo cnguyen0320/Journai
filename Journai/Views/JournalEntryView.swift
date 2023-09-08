@@ -27,5 +27,5 @@ struct JournalEntryView: View {
 }
 
 #Preview {
-	JournalEntryView(entry:JournalEntry(title: "title", body: "body", dateCreated: Date(), dateModified: Date()))
+	JournalEntryView(entry:JournalEntry(title: "title", body: "body"))
 }
