@@ -15,8 +15,19 @@ struct NewJournalView: View {
 	
 	var body: some View {
 		
-		
 		VStack{
+			VStack{
+				Button{
+					print("prompted")
+				}label:{
+					Text("Prompt Me")
+						.font(.title3)
+				}
+				
+				Text("")
+					.font(.body)
+			}
+			
 			TextField("Title", text:$viewModel.title)
 				.textFieldStyle(.automatic)
 				.font(.largeTitle)

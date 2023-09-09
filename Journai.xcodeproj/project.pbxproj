@@ -15,6 +15,8 @@
 		7B4FD79F2AAB62C700F38901 /* NewJournalViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FD79E2AAB62C700F38901 /* NewJournalViewViewModel.swift */; };
 		7B4FD7A12AAB6E3100F38901 /* PreviewSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FD7A02AAB6E3100F38901 /* PreviewSampleData.swift */; };
 		7B4FD7A32AAB6FF700F38901 /* SampleJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FD7A22AAB6FF700F38901 /* SampleJournal.swift */; };
+		7B4FD7A72AAC21B100F38901 /* EntryPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FD7A62AAC21B100F38901 /* EntryPrompts.swift */; };
+		7B4FD7A92AAC269200F38901 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FD7A82AAC269200F38901 /* SettingsView.swift */; };
 		7B9969BD2AAA198C00BF849C /* JournaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9969BC2AAA198C00BF849C /* JournaiApp.swift */; };
 		7B9969BF2AAA198C00BF849C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9969BE2AAA198C00BF849C /* ContentView.swift */; };
 		7B9969C12AAA198D00BF849C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9969C02AAA198D00BF849C /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		7B4FD79E2AAB62C700F38901 /* NewJournalViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJournalViewViewModel.swift; sourceTree = "<group>"; };
 		7B4FD7A02AAB6E3100F38901 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
 		7B4FD7A22AAB6FF700F38901 /* SampleJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleJournal.swift; sourceTree = "<group>"; };
+		7B4FD7A62AAC21B100F38901 /* EntryPrompts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPrompts.swift; sourceTree = "<group>"; };
+		7B4FD7A82AAC269200F38901 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		7B9969B92AAA198C00BF849C /* Journai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9969BC2AAA198C00BF849C /* JournaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournaiApp.swift; sourceTree = "<group>"; };
 		7B9969BE2AAA198C00BF849C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 				7B4FD7962AAA246D00F38901 /* JournalListView.swift */,
 				7B4FD7982AAA25B300F38901 /* JournalEntryView.swift */,
 				7B4FD79A2AAB5ECC00F38901 /* NewJournalView.swift */,
+				7B4FD7A82AAC269200F38901 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			children = (
 				7B4FD7922AAA229200F38901 /* JournalEntry.swift */,
 				7B4FD7A22AAB6FF700F38901 /* SampleJournal.swift */,
+				7B4FD7A62AAC21B100F38901 /* EntryPrompts.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -195,12 +201,14 @@
 			files = (
 				7B4FD7972AAA246D00F38901 /* JournalListView.swift in Sources */,
 				7B4FD7952AAA22A200F38901 /* JournalViewModel.swift in Sources */,
+				7B4FD7A72AAC21B100F38901 /* EntryPrompts.swift in Sources */,
 				7B4FD7932AAA229200F38901 /* JournalEntry.swift in Sources */,
 				7B4FD7992AAA25B300F38901 /* JournalEntryView.swift in Sources */,
 				7B4FD79F2AAB62C700F38901 /* NewJournalViewViewModel.swift in Sources */,
 				7B4FD7A32AAB6FF700F38901 /* SampleJournal.swift in Sources */,
 				7B4FD79B2AAB5ECC00F38901 /* NewJournalView.swift in Sources */,
 				7B9969BF2AAA198C00BF849C /* ContentView.swift in Sources */,
+				7B4FD7A92AAC269200F38901 /* SettingsView.swift in Sources */,
 				7B9969BD2AAA198C00BF849C /* JournaiApp.swift in Sources */,
 				7B4FD7A12AAB6E3100F38901 /* PreviewSampleData.swift in Sources */,
 			);

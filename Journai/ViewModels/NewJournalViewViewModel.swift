@@ -12,6 +12,7 @@ class NewJournalViewViewModel: ObservableObject{
 	@Published var title: String = ""
 	@Published var body: String = ""
 	
+	
 	func save(){
 		
 		guard hasContent() else{
@@ -33,6 +34,13 @@ class NewJournalViewViewModel: ObservableObject{
 		}
 		
 		return true
+	}
+	
+	func getEntryPrompt() -> String? {
+		guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts/1") else {
+					return nil
+				}
+		return ""
 	}
 	
 }

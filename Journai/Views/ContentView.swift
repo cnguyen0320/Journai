@@ -11,8 +11,25 @@ import SwiftData
 struct ContentView: View {
 	@EnvironmentObject var viewModel: JournalViewModel
     var body: some View {
-        JournalView()
-			.environmentObject(viewModel)
+        
+		TabView{
+			JournalView()
+				.environmentObject(viewModel)
+				.tabItem{
+					Label("Journal", systemImage: "book.pages")
+				}
+			
+			JournalView()
+				.environmentObject(viewModel)
+				.tabItem{
+					Label("Summaries", systemImage: "book.fill")
+				}
+			
+			SettingsView()
+				.tabItem{
+					Label("Settings", systemImage: "gearshape.fill")
+				}
+		}
     }
 }
 
